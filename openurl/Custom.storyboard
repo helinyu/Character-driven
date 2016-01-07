@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="SZH-KW-Zn4">
+            <objects>
+                <viewController id="CYS-cP-9Kl" customClass="CustomCommonWeb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u0r-nS-sGj"/>
+                        <viewControllerLayoutGuide type="bottom" id="8wJ-Rg-w0R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WYD-rc-Ket">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jds-nG-j5K">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8wJ-Rg-w0R" firstAttribute="top" secondItem="jds-nG-j5K" secondAttribute="bottom" id="H7O-Se-y6d"/>
+                            <constraint firstItem="jds-nG-j5K" firstAttribute="leading" secondItem="WYD-rc-Ket" secondAttribute="leading" id="Nbx-i2-gwE"/>
+                            <constraint firstAttribute="trailing" secondItem="jds-nG-j5K" secondAttribute="trailing" id="O3n-2g-HOM"/>
+                            <constraint firstItem="jds-nG-j5K" firstAttribute="top" secondItem="u0r-nS-sGj" secondAttribute="bottom" id="bae-jI-Vrj"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="CfX-dh-lip">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="WXf-Bl-DgF" userLabel="left"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="p4A-vq-gjQ" userLabel="right"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IOE-O3-0CJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="307" y="351"/>
+        </scene>
+    </scenes>
+</document>
