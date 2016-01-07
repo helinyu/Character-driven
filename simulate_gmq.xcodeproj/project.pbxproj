@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FB41674B654578BEA3EEF64 /* libPods-simulate_gmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB51C679AAB5B5DCB6B7EFD /* libPods-simulate_gmq.a */; };
+		DCD7CD6B1C3CB491003F2048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD7CD6A1C3CB491003F2048 /* main.m */; };
+		DCD7CD6E1C3CB491003F2048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD7CD6D1C3CB491003F2048 /* AppDelegate.m */; };
+		DCD7CD711C3CB491003F2048 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD7CD701C3CB491003F2048 /* ViewController.m */; };
+		DCD7CD741C3CB491003F2048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD7CD721C3CB491003F2048 /* Main.storyboard */; };
+		DCD7CD761C3CB491003F2048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7CD751C3CB491003F2048 /* Assets.xcassets */; };
+		DCD7CD791C3CB491003F2048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD7CD771C3CB491003F2048 /* LaunchScreen.storyboard */; };
+		DCD7CD841C3CB491003F2048 /* simulate_gmqTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD7CD831C3CB491003F2048 /* simulate_gmqTests.m */; };
+		DCD7CD8F1C3CB491003F2048 /* simulate_gmqUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD7CD8E1C3CB491003F2048 /* simulate_gmqUITests.m */; };
+		DCD7CD9E1C3CB4D7003F2048 /* BasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD7CD9D1C3CB4D7003F2048 /* BasicController.m */; };
+		DCD8A9921C3D22AF007A0120 /* RestStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A9911C3D22AF007A0120 /* RestStruct.m */; };
+		DCD8A9971C3D2401007A0120 /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A9961C3D2401007A0120 /* RestService.m */; };
+		DCD8A99A1C3D2417007A0120 /* Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A9991C3D2417007A0120 /* Interface.m */; };
+		DCD8A99D1C3D2452007A0120 /* HostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A99C1C3D2452007A0120 /* HostManager.m */; };
+		DCD8A9A01C3D2468007A0120 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8A99F1C3D2468007A0120 /* ServiceManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD7CD801C3CB491003F2048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD7CD5E1C3CB490003F2048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD7CD651C3CB491003F2048;
+			remoteInfo = simulate_gmq;
+		};
+		DCD7CD8B1C3CB491003F2048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD7CD5E1C3CB490003F2048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD7CD651C3CB491003F2048;
+			remoteInfo = simulate_gmq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		299C95ECE661B8899F8B8214 /* Pods-simulate_gmq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simulate_gmq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simulate_gmq/Pods-simulate_gmq.debug.xcconfig"; sourceTree = "<group>"; };
+		D74DD201B37BE988BCB683F6 /* Pods-simulate_gmq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simulate_gmq.release.xcconfig"; path = "Pods/Target Support Files/Pods-simulate_gmq/Pods-simulate_gmq.release.xcconfig"; sourceTree = "<group>"; };
+		DCD7CD661C3CB491003F2048 /* simulate_gmq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simulate_gmq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD7CD6A1C3CB491003F2048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCD7CD6C1C3CB491003F2048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = simulate_gmq/AppDelegate.h; sourceTree = "<group>"; };
+		DCD7CD6D1C3CB491003F2048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = simulate_gmq/AppDelegate.m; sourceTree = "<group>"; };
+		DCD7CD6F1C3CB491003F2048 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCD7CD701C3CB491003F2048 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCD7CD731C3CB491003F2048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD7CD751C3CB491003F2048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD7CD781C3CB491003F2048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD7CD7A1C3CB491003F2048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD7CD7F1C3CB491003F2048 /* simulate_gmqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simulate_gmqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD7CD831C3CB491003F2048 /* simulate_gmqTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simulate_gmqTests.m; sourceTree = "<group>"; };
+		DCD7CD851C3CB491003F2048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD7CD8A1C3CB491003F2048 /* simulate_gmqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simulate_gmqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD7CD8E1C3CB491003F2048 /* simulate_gmqUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simulate_gmqUITests.m; sourceTree = "<group>"; };
+		DCD7CD901C3CB491003F2048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD7CD9C1C3CB4D7003F2048 /* BasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicController.h; sourceTree = "<group>"; };
+		DCD7CD9D1C3CB4D7003F2048 /* BasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicController.m; sourceTree = "<group>"; };
+		DCD8A98D1C3D208C007A0120 /* AppDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefinition.h; sourceTree = "<group>"; };
+		DCD8A9901C3D22AF007A0120 /* RestStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestStruct.h; sourceTree = "<group>"; };
+		DCD8A9911C3D22AF007A0120 /* RestStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestStruct.m; sourceTree = "<group>"; };
+		DCD8A9951C3D2401007A0120 /* RestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestService.h; sourceTree = "<group>"; };
+		DCD8A9961C3D2401007A0120 /* RestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestService.m; sourceTree = "<group>"; };
+		DCD8A9981C3D2417007A0120 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		DCD8A9991C3D2417007A0120 /* Interface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interface.m; sourceTree = "<group>"; };
+		DCD8A99B1C3D2452007A0120 /* HostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostManager.h; sourceTree = "<group>"; };
+		DCD8A99C1C3D2452007A0120 /* HostManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostManager.m; sourceTree = "<group>"; };
+		DCD8A99E1C3D2468007A0120 /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
+		DCD8A99F1C3D2468007A0120 /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
+		FCB51C679AAB5B5DCB6B7EFD /* libPods-simulate_gmq.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simulate_gmq.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD7CD631C3CB491003F2048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB41674B654578BEA3EEF64 /* libPods-simulate_gmq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD7CD7C1C3CB491003F2048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD7CD871C3CB491003F2048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4081939066E22B7B765090CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				299C95ECE661B8899F8B8214 /* Pods-simulate_gmq.debug.xcconfig */,
+				D74DD201B37BE988BCB683F6 /* Pods-simulate_gmq.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B624159153E44E85F0914D89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB51C679AAB5B5DCB6B7EFD /* libPods-simulate_gmq.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCD7CD5D1C3CB490003F2048 = {
+			isa = PBXGroup;
+			children = (
+				DCD8A98D1C3D208C007A0120 /* AppDefinition.h */,
+				DCD7CD6C1C3CB491003F2048 /* AppDelegate.h */,
+				DCD7CD6D1C3CB491003F2048 /* AppDelegate.m */,
+				DCD7CD681C3CB491003F2048 /* simulate_gmq */,
+				DCD7CD821C3CB491003F2048 /* simulate_gmqTests */,
+				DCD7CD8D1C3CB491003F2048 /* simulate_gmqUITests */,
+				DCD7CD671C3CB491003F2048 /* Products */,
+				4081939066E22B7B765090CB /* Pods */,
+				B624159153E44E85F0914D89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD7CD671C3CB491003F2048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7CD661C3CB491003F2048 /* simulate_gmq.app */,
+				DCD7CD7F1C3CB491003F2048 /* simulate_gmqTests.xctest */,
+				DCD7CD8A1C3CB491003F2048 /* simulate_gmqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD7CD681C3CB491003F2048 /* simulate_gmq */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7CDA01C3CBCEA003F2048 /* storyboard */,
+				DCD7CD9F1C3CB4EF003F2048 /* controllers */,
+				DCD8A98F1C3D228A007A0120 /* Services */,
+				DCD7CD751C3CB491003F2048 /* Assets.xcassets */,
+				DCD7CD771C3CB491003F2048 /* LaunchScreen.storyboard */,
+				DCD7CD7A1C3CB491003F2048 /* Info.plist */,
+				DCD7CD691C3CB491003F2048 /* Supporting Files */,
+			);
+			path = simulate_gmq;
+			sourceTree = "<group>";
+		};
+		DCD7CD691C3CB491003F2048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7CD6A1C3CB491003F2048 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD7CD821C3CB491003F2048 /* simulate_gmqTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7CD831C3CB491003F2048 /* simulate_gmqTests.m */,
+				DCD7CD851C3CB491003F2048 /* Info.plist */,
+			);
+			path = simulate_gmqTests;
+			sourceTree = "<group>";
+		};
+		DCD7CD8D1C3CB491003F2048 /* simulate_gmqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7CD8E1C3CB491003F2048 /* simulate_gmqUITests.m */,
+				DCD7CD901C3CB491003F2048 /* Info.plist */,
+			);
+			path = simulate_gmqUITests;
+			sourceTree = "<group>";
+		};
+		DCD7CD9F1C3CB4EF003F2048 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8A98E1C3D2276007A0120 /* New Group */,
+				DCD7CD9C1C3CB4D7003F2048 /* BasicController.h */,
+				DCD7CD9D1C3CB4D7003F2048 /* BasicController.m */,
+				DCD7CD6F1C3CB491003F2048 /* ViewController.h */,
+				DCD7CD701C3CB491003F2048 /* ViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		DCD7CDA01C3CBCEA003F2048 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7CD721C3CB491003F2048 /* Main.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		DCD8A98E1C3D2276007A0120 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		DCD8A98F1C3D228A007A0120 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8A9A21C3D24CE007A0120 /* interfaces */,
+				DCD8A9931C3D22DB007A0120 /* RestStructs */,
+				DCD8A9A11C3D248A007A0120 /* RestServices */,
+				DCD8A99E1C3D2468007A0120 /* ServiceManager.h */,
+				DCD8A99F1C3D2468007A0120 /* ServiceManager.m */,
+				DCD8A99B1C3D2452007A0120 /* HostManager.h */,
+				DCD8A99C1C3D2452007A0120 /* HostManager.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DCD8A9931C3D22DB007A0120 /* RestStructs */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8A9901C3D22AF007A0120 /* RestStruct.h */,
+				DCD8A9911C3D22AF007A0120 /* RestStruct.m */,
+			);
+			name = RestStructs;
+			sourceTree = "<group>";
+		};
+		DCD8A9A11C3D248A007A0120 /* RestServices */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8A9951C3D2401007A0120 /* RestService.h */,
+				DCD8A9961C3D2401007A0120 /* RestService.m */,
+			);
+			name = RestServices;
+			sourceTree = "<group>";
+		};
+		DCD8A9A21C3D24CE007A0120 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8A9981C3D2417007A0120 /* Interface.h */,
+				DCD8A9991C3D2417007A0120 /* Interface.m */,
+			);
+			name = interfaces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD7CD651C3CB491003F2048 /* simulate_gmq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD7CD931C3CB491003F2048 /* Build configuration list for PBXNativeTarget "simulate_gmq" */;
+			buildPhases = (
+				A7011E31BE467BBC96B3084F /* Check Pods Manifest.lock */,
+				DCD7CD621C3CB491003F2048 /* Sources */,
+				DCD7CD631C3CB491003F2048 /* Frameworks */,
+				DCD7CD641C3CB491003F2048 /* Resources */,
+				F386A34DC348F0E3A885E789 /* Embed Pods Frameworks */,
+				FA10568634F53100D261D299 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simulate_gmq;
+			productName = simulate_gmq;
+			productReference = DCD7CD661C3CB491003F2048 /* simulate_gmq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD7CD7E1C3CB491003F2048 /* simulate_gmqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD7CD961C3CB491003F2048 /* Build configuration list for PBXNativeTarget "simulate_gmqTests" */;
+			buildPhases = (
+				DCD7CD7B1C3CB491003F2048 /* Sources */,
+				DCD7CD7C1C3CB491003F2048 /* Frameworks */,
+				DCD7CD7D1C3CB491003F2048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD7CD811C3CB491003F2048 /* PBXTargetDependency */,
+			);
+			name = simulate_gmqTests;
+			productName = simulate_gmqTests;
+			productReference = DCD7CD7F1C3CB491003F2048 /* simulate_gmqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCD7CD891C3CB491003F2048 /* simulate_gmqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD7CD991C3CB491003F2048 /* Build configuration list for PBXNativeTarget "simulate_gmqUITests" */;
+			buildPhases = (
+				DCD7CD861C3CB491003F2048 /* Sources */,
+				DCD7CD871C3CB491003F2048 /* Frameworks */,
+				DCD7CD881C3CB491003F2048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD7CD8C1C3CB491003F2048 /* PBXTargetDependency */,
+			);
+			name = simulate_gmqUITests;
+			productName = simulate_gmqUITests;
+			productReference = DCD7CD8A1C3CB491003F2048 /* simulate_gmqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD7CD5E1C3CB490003F2048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = felix;
+				TargetAttributes = {
+					DCD7CD651C3CB491003F2048 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D2XBEJ6876;
+					};
+					DCD7CD7E1C3CB491003F2048 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D2XBEJ6876;
+						TestTargetID = DCD7CD651C3CB491003F2048;
+					};
+					DCD7CD891C3CB491003F2048 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D2XBEJ6876;
+						TestTargetID = DCD7CD651C3CB491003F2048;
+					};
+				};
+			};
+			buildConfigurationList = DCD7CD611C3CB490003F2048 /* Build configuration list for PBXProject "simulate_gmq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD7CD5D1C3CB490003F2048;
+			productRefGroup = DCD7CD671C3CB491003F2048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD7CD651C3CB491003F2048 /* simulate_gmq */,
+				DCD7CD7E1C3CB491003F2048 /* simulate_gmqTests */,
+				DCD7CD891C3CB491003F2048 /* simulate_gmqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD7CD641C3CB491003F2048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD7CD791C3CB491003F2048 /* LaunchScreen.storyboard in Resources */,
+				DCD7CD761C3CB491003F2048 /* Assets.xcassets in Resources */,
+				DCD7CD741C3CB491003F2048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD7CD7D1C3CB491003F2048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD7CD881C3CB491003F2048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7011E31BE467BBC96B3084F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F386A34DC348F0E3A885E789 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simulate_gmq/Pods-simulate_gmq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA10568634F53100D261D299 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simulate_gmq/Pods-simulate_gmq-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD7CD621C3CB491003F2048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD7CD711C3CB491003F2048 /* ViewController.m in Sources */,
+				DCD8A99D1C3D2452007A0120 /* HostManager.m in Sources */,
+				DCD8A99A1C3D2417007A0120 /* Interface.m in Sources */,
+				DCD8A9A01C3D2468007A0120 /* ServiceManager.m in Sources */,
+				DCD7CD6E1C3CB491003F2048 /* AppDelegate.m in Sources */,
+				DCD7CD9E1C3CB4D7003F2048 /* BasicController.m in Sources */,
+				DCD8A9921C3D22AF007A0120 /* RestStruct.m in Sources */,
+				DCD7CD6B1C3CB491003F2048 /* main.m in Sources */,
+				DCD8A9971C3D2401007A0120 /* RestService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD7CD7B1C3CB491003F2048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD7CD841C3CB491003F2048 /* simulate_gmqTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD7CD861C3CB491003F2048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD7CD8F1C3CB491003F2048 /* simulate_gmqUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD7CD811C3CB491003F2048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD7CD651C3CB491003F2048 /* simulate_gmq */;
+			targetProxy = DCD7CD801C3CB491003F2048 /* PBXContainerItemProxy */;
+		};
+		DCD7CD8C1C3CB491003F2048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD7CD651C3CB491003F2048 /* simulate_gmq */;
+			targetProxy = DCD7CD8B1C3CB491003F2048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCD7CD721C3CB491003F2048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD7CD731C3CB491003F2048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD7CD771C3CB491003F2048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD7CD781C3CB491003F2048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD7CD911C3CB491003F2048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD7CD921C3CB491003F2048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD7CD941C3CB491003F2048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299C95ECE661B8899F8B8214 /* Pods-simulate_gmq.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simulate_gmq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vanchu.simulate-gmq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCD7CD951C3CB491003F2048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74DD201B37BE988BCB683F6 /* Pods-simulate_gmq.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simulate_gmq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vanchu.simulate-gmq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCD7CD971C3CB491003F2048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simulate_gmqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vanchu.simulate-gmqTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simulate_gmq.app/simulate_gmq";
+			};
+			name = Debug;
+		};
+		DCD7CD981C3CB491003F2048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simulate_gmqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vanchu.simulate-gmqTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simulate_gmq.app/simulate_gmq";
+			};
+			name = Release;
+		};
+		DCD7CD9A1C3CB491003F2048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simulate_gmqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vanchu.simulate-gmqUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simulate_gmq;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCD7CD9B1C3CB491003F2048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simulate_gmqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vanchu.simulate-gmqUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simulate_gmq;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD7CD611C3CB490003F2048 /* Build configuration list for PBXProject "simulate_gmq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD7CD911C3CB491003F2048 /* Debug */,
+				DCD7CD921C3CB491003F2048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD7CD931C3CB491003F2048 /* Build configuration list for PBXNativeTarget "simulate_gmq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD7CD941C3CB491003F2048 /* Debug */,
+				DCD7CD951C3CB491003F2048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD7CD961C3CB491003F2048 /* Build configuration list for PBXNativeTarget "simulate_gmqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD7CD971C3CB491003F2048 /* Debug */,
+				DCD7CD981C3CB491003F2048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD7CD991C3CB491003F2048 /* Build configuration list for PBXNativeTarget "simulate_gmqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD7CD9A1C3CB491003F2048 /* Debug */,
+				DCD7CD9B1C3CB491003F2048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD7CD5E1C3CB490003F2048 /* Project object */;
+}
